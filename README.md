@@ -137,7 +137,7 @@ auto arduino = Control(Control::family_code, 0x00,0x00,0xB2,0x18,0xDA,UNIT_ID);
 
 # Motivation
 
-I was faced with the situation of having to connect 16 simple ADC sensors to my ESP32 running micropython.
+I was faced with the situation of having to connect 16 simple analog sensors to my ESP32 running micropython.
 These were all within a few meters from the device but would require me to run a lot of cables and still use an analog multiplexer and a multiplexer for the power supply lines as these devices are not supposed to be powered all the time.
 Therefore the easier solution was to have small, power efficient and cheap Arduinos do the sensor power toggling and reading.
 This way I only need to run one cable with Vcc,Data and GND between all Arduinos and can reliably read all 16 sensors.
