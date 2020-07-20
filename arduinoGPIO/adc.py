@@ -20,7 +20,7 @@ class ADC(pyADC):
         machine.ADC compatible object that can be used in any application/library.
         This class does not need an Arduino object translating between the ArduinoControl object.
         :param arduinoControl: ArduinoControl object
-        :param rom: onewire slave id, can be str as it will be converted
+        :param rom: onewire subordinate id, can be str as it will be converted
         :param pin: pin number
         :param vcc: Voltage the arduino is running at to calculate adc voltage
         """

@@ -243,7 +243,7 @@ class ArduinoControl(onewire.OneWire):
     def Pin(self, rom: bytearray, pin: int, *args, **kwargs):
         """
         Returns a Pin object to control one digital pin on the device matching ROM
-        :param rom: slave id, bytearray or string
+        :param rom: subordinate id, bytearray or string
         :param pin: pin number
         :param args:
         :param kwargs:
